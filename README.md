@@ -12,10 +12,10 @@ Controlls:
 
 On the Player Object:
 
-  -BasicCharacterController
-    Move Force = the strength of physical force applied to the player when pressing w,a,s or d. Currently no diagnal or jump.
-    Turn Sensitivity = A value multiplied against mouse input and used to rotate the camera on the y AND x axis. Recommend slow increments.
-    X Angle Max = An absolute value of how far the camera is allowed to rotate on the x axis. A range between 0 and 1 where zero is full clamp and 1 is no clamp.
+    -BasicCharacterController
+      Move Force = the strength of physical force applied to the player when pressing w,a,s or d. Currently no diagnal or jump.
+      Turn Sensitivity = A value multiplied against mouse input and used to rotate the camera on the y AND x axis. Recommend slow increments.
+      X Angle Max = An absolute value of how far the camera is allowed to rotate on the x axis. A range between 0 and 1 where zero is full clamp and 1 is no clamp.
 
     -GrappleController
       Physics based hook OR raycast based hook, USE ONLY ONE AT A TIME.
